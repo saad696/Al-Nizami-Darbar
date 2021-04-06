@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "name": "al-nizami-darbar",
+  "version": "1.0.0",
+  "description": "Al Nizami Darbar's Website",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hotel",
+    "Website",
+    "Food",
+    "Static"
+  ],
+  "author": "Saad Shaikh",
+  "license": "ISC"
+}

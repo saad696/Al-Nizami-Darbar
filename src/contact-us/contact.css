@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat" sans-serif;
+  overflow: hidden;
+}
+
+.image-section {
+    background-image: url("../../images/og-pattern.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .image-section_text {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .os {
+    font-family: "Dancing Script", cursive;
+    color: #da902f;
+    font-weight: 700;
+  }
+
+  .msg {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .msg p{
+      font: 'Montserrat', sans-serif;
+  }
+
+  .contact-bg{
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      width: 100%;
+  }
+
+  .pno{
+      color: #885800;
+  }
+
+  .other-details{
+      position: relative;
+  }
+
+  .map{
+      width: 100vw;
+      height: 400px;
+  }
+
+  .c{
+      font-family: 'Dancing Script', cursive;
+      color: #da902f;
+  }
+
+  @media screen and (max-width: 700px){
+      .contact-bg{
+          display: none;
+      }
+
+      .mpe{
+          display: block;
+      }
+  }
