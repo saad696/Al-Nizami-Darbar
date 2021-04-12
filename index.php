@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="We at NIZAMI DARBAR, are striving to bring you the best and most authentic food at reasonable prices. Our aim is to give each guest an experience of the Nizami hospitality.">
+  <meta name="keywords" content="best restraunts near me, best restraunts in andheri east, restraunt in andheri, best mughalai restraunt, restraunts in andheri east, delivery restraunts near me, mughalai restraunt">
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
@@ -31,34 +33,18 @@
 </head>
 
 <body>
-  <?php  $page = "home"; include("./src/navbar/navbar.php") ?>
+  <?php $page = "home";
+  include("./src/navbar/navbar.php") ?>
 
 
   <section>
 
     <div class="img-sec" style="background-image: url('./images/og-bg.png');">
-      <!-- <figure class="image is-128x128 logo">
-          <img class="py-5 ml-5 logo-img" src="./images/logo.png" alt="Al-Nizam Darbar">
-        </figure> -->
       <div class="d-flex justify-content-center logo-container">
         <figure class="image is-256x256">
-          <img class="animate__animated animate__fadeInDownBig animate__slow animate__delay-2s" src="./images/og-logo.png">
+          <img class="animate__animated animate__fadeInDownBig animate__slow" src="./images/og-logo.png">
         </figure>
       </div>
-      <!-- <div class="full-logo-img d-flex justify-content-center">
-        <img class="full-logo animate__animated animate__fadeInDownBig animate__slow animate__slow animate__delay-1s" src="./images/nizami-text.png">
-      </div> -->
-      <div class="d-flex justify-content-center">
-        <img class="animate__animated animate__fadeInDownBig animate__slow" src="./images/royalBorder.png">
-      </div>
-      <!-- <div class="small-intro mx-auto mt-3 has-text-centered">
-        </div>
-        <p class="has-text-weight-semibold is-size-6 is-uppercase">
-          opening hours
-        </p>
-        <p><span class="has-text-weight-semibold is-size-7">Monday - Friday:</span> <span class="is-size-7">10:00 AM - 23:00 PM</span></p>
-        <p><span class="has-text-weight-semibold is-size-7">Weekends:</span> <span class="is-size-7">09:00 AM - 01:00 AM</span></p>
-      </div> -->
     </div>
   </section>
   <section class="our-story py-6">
@@ -157,8 +143,8 @@
               <div class="has-text-left pb-6">
                 <p class="is-size-5-desktop is-size-6-mobile has-text-weight-semibold is-uppercase sp-dish-head">Nizami Daawat ( 24 pcs )</p>
                 <p class="is-size-6-desktop is-size-7-mobile has-text-weight-semibold has-text-grey">( 4 pcs. Rawas, 4 pcs. Prawns, 4 pcs. Mutton Seekh, 4 pcs. Chi. Tikka, 4 pcs. chi. Pahadi Kebab, 4 pcs Chi. Reshmi Kebab )</p>
-                <span class="is-size-7 has-text-weight-semibold has-text-grey"><span class="has-text-dark">Category:</span> <span>Starter</span></span><br>
-                <a href="#!" class="btn v-btn btn-sm">View in menu</a>
+                <span class="is-size-7 has-text-weight-semibold has-text-grey"><span class="has-text-dark">Category:</span> <span>Non Veg. Mughalai Starter</span></span><br>
+                <a href="/Al-Nizami-Darbar/src/menu/mughalai/mughalai.php#spc1" class="btn v-btn btn-sm">View in menu</a>
               </div>
             </div>
           </div>
@@ -175,8 +161,8 @@
               <div class="has-text-left pb-6">
                 <p class="is-size-5-desktop is-size-6-mobile has-text-weight-semibold is-uppercase sp-dish-head">Al Nizami Special Biryani</p>
                 <p class="is-size-6-desktop is-size-7-mobile has-text-weight-semibold has-text-grey">( full chi. tandoori biryani garnished with. 6 pcs Chi. Chapli, 6 pcs. Chi. Seekh Kebab served with Veg Raita )</p>
-                <span class="is-size-7 has-text-weight-semibold has-text-grey"><span class="has-text-dark">Category:</span> <span>Main Course</span></span><br>
-                <a href="#!" class="btn v-btn is-inverted is-small">View in menu</a>
+                <span class="is-size-7 has-text-weight-semibold has-text-grey"><span class="has-text-dark">Category:</span> <span>Basmati Zayeka</span></span><br>
+                <a href="/Al-Nizami-Darbar/src/menu/mughalai/mughalai.php#spc2" class="btn v-btn is-inverted is-small">View in menu</a>
               </div>
             </div>
           </div>
@@ -191,10 +177,10 @@
             </div>
             <div class="column ml-4">
               <div class="has-text-left">
-                <p class="is-size-5-desktop is-size-6-mobile has-text-weight-semibold is-uppercase sp-dish-head">Nizami Daawat ( 24 pcs )</p>
-                <p class="is-size-6-desktop is-size-7-mobile has-text-weight-semibold has-text-grey">( 4 pcs. Rawas, 4 pcs. Prawns, 4pcs. Mutton Seekh, 4 pcs. Chi. Tikka, 4 pcs. chi. Pahadi Kebab, 4 pcs Chi. Reshmi Kebab )</p>
+                <p class="is-size-5-desktop is-size-6-mobile has-text-weight-semibold is-uppercase sp-dish-head">AL Nizami Special Thaal</p>
+                <p class="is-size-6-desktop is-size-7-mobile has-text-weight-semibold has-text-grey">( 1 raan, Kebsa rice, 4pcs. Chaap, 4 pcs. Mutton. Seekh Kebab, 6 pcs. chi. Tikka, 1 Chi. Gravy, 1 Mutton. Gravy, 4 pcs. Bread, 2 Sizzling Brownie )</p>
                 <span class="is-size-7 has-text-weight-semibold has-text-grey"><span class="has-text-dark">Category:</span> <span>Thaali</span></span><br>
-                <a href="#!" class="btn v-btn is-inverted is-small">View in menu</a>
+                <a href="/Al-Nizami-Darbar/src/menu/nizami/nizami.php#spc3" class="btn v-btn is-inverted is-small">View in menu</a>
               </div>
             </div>
           </div>
@@ -204,33 +190,33 @@
   </section>
 
   <section class="has-background-warning-light py-6 standard-sec">
-  <canvas class="background"></canvas>
-    <div class="has-text-centered"  data-aos="zoom-in-down">
+    <canvas class="background"></canvas>
+    <div class="has-text-centered" data-aos="zoom-in-down">
       <p class="has-text-weight-bold is-size-1-desktop is-size-2-mobile" style="font-family: 'Dancing Script', cursive;">Our Standards</p>
     </div>
     <div class="columns is-mobile is-multiline mt-6">
       <div class="column is-4-desktop is-12-mobile ">
-        <div class="standard-1 card card-bg px-4 py-4" style="background-image: url('./images/card-bg.jpg');" data-aos="flip-left" data-aos-offset="300">
+        <div class="standard-1 card card-bg px-4 py-4 ml-2" style="background-image: url('./images/card-bg.jpg');  border: 12px ridge #da902f; border-radius: 5px;" data-aos="flip-left" data-aos-offset="300">
           <p class="has-text-weight-semibold is-size-4-desktop is-size-4-mobile standard-title">Nizami Theme</p>
           <p class="has-text-weight-semibold is-size-6-desktop is-size-6-mobile py-3 has-text-dark">With our menu being centered around the casual Nizami dishes, we added several sumptuous, authentic vegetarian and non-vegetarian dishes from Arabia, India, Persia and Turkey.</p>
         </div>
       </div>
       <div class="column is-4-desktop is-12-mobile ">
-        <div class="standard-1 card card-bg px-4 py-4" style="background-image: url('./images/card-bg.jpg');" data-aos="flip-up" data-aos-offset="300">
+        <div class="standard-1 card card-bg px-4 py-4 ml-2" style="background-image: url('./images/card-bg.jpg');  border: 12px ridge #da902f; border-radius: 5px;" data-aos="flip-up" data-aos-offset="300">
           <p class="has-text-weight-semibold is-size-4-desktop is-size-4-mobile standard-title">Royal Enviroment</p>
           <p class="has-text-weight-semibold is-size-6-desktop is-size-6-mobile py-3 has-text-dark">Sit back and luxuriate in the magnificent grandeur incorporated into its interiors. Revel in the majesty of the DARBAR as enjoyed by the people of a bygone era.</p>
         </div>
       </div>
-      <div class="column is-4-desktop is-12-mobile ">
-        <div class="standard-1 card card-bg px-4 py-4" style="background-image: url('./images/card-bg.jpg');" data-aos="flip-right" data-aos-offset="300">
+      <div class="column is-4-desktop is-12-mobile">
+        <div class="standard-1 card card-bg px-4 py-4 ml-2" style="background-image: url('./images/card-bg.jpg'); border: 12px ridge #da902f; border-radius: 5px;" data-aos="flip-right" data-aos-offset="300">
           <p class="has-text-weight-semibold is-size-4-desktop is-size-4-mobile standard-title">Exquisite cuisine</p>
           <p class="has-text-weight-semibold is-size-6-desktop is-size-6-mobile py-3 has-text-dark">While the hospitality and the tastes of the NIZAMS has been kept intact, we have also added contemporary culinary experiences by adding several sumptuous, authentic vegetarian and non-vegetarian dishes from Arabia, Persia and Turkey.</p>
         </div>
       </div>
     </div>
   </section>
-  
-    <?php include("./src/footer/footer.php")?>
+
+  <?php include("./src/footer/footer.php") ?>
 
   <!-- partical js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>

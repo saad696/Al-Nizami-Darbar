@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We at NIZAMI DARBAR, are striving to bring you the best and most authentic food at reasonable prices. Our aim is to give each guest an experience of the Nizami hospitality.">
+    <meta name="keywords" content="best restraunts near me, restraunt in andheri, best mughalai restraunt, restraunts in andheri, delivery restraunts near me, mughalai restraunt, fine dine restraunt, food delivery near me, best restraunt">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -27,6 +29,8 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- aos css -->
     <link rel="stylesheet" href="../../node_modules/aos/dist/aos.css">
+    <!-- app.js -->
+    <script src="../../app.js" defer></script>
     <title>Contact us</title>
 </head>
 
@@ -37,34 +41,76 @@
     <section class="aboutus-landing">
         <div class="bg-image">
             <div class="image-section">
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                    <div class="image-section_text has-text-centered">
-                        <div class="is-size-1-desktop is-size-2-mobile os has-text-white">
-                            Contact us
-                        </div>
+                <div class="img-sec-logo ">
+                    <img src="../../images/logo.png" class="animate__animated animate__fadeInDownBig animate__slow" alt="">
+                </div>
+                <div class="image-section_text has-text-centered">
+                    <div class="is-size-1-desktop is-size-3-mobile os  animate__animated animate__fadeInUpBig animate__slow">
+                        Contact us
                     </div>
-                    <div class="msg">
-                        <p class="is-size-1-desktop is-size-3-mobile has-text-weight-semibold has-text-white">Send us a message</p>
-                    </div>
+                </div>
+                <div class="msg">
+                    <p class="is-size-1-desktop is-size-5-mobile has-text-weight-semibold animate__animated animate__fadeInUpBig animate__slow">Send us a message</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="form mt-6">
         <div class="columns is-mobile is-multiline px-6 py-6">
-            <div class="column is-6-desktop contact-bg has-text-centered py-6" style="background-image: url(../../images/og-bg-2.png);">
-                <span data-tilt>
-                    <img src="../../images/og-logo.png" alt="" class="pt-6 js-tilt">
-                </span>
+            <div class="column is-6-desktop contact-bg has-text-centered py-6 has-background-warning-light">
+                <div class="has-text-centered ">
+                    <p class="has-text-weight-semibold is-size-3 pb-4 os">Contact details </p>
+                </div>
+                <div class="columns is-mobile is-multiline">
+                    <div class="column is-12">
+                        <div class="d-flex justify-content-start mpe" data-aos="fade-right">
+                            <i class="fas fa-map has-text-warning fa-2x my-auto"></i>
+                            <a href="https://www.google.com/maps/place/Al+Nizami+Darbar/@19.1098817,72.8755438,15z/data=!4m2!3m1!1s0x0:0xc1192273cb239426?sa=X&ved=2ahUKEwicgKfD3-nvAhVIzTgGHZbKC88Q_BIwF3oECCAQBQ" class="has-text-weight-semibold is-size-6 add ml-3 has-text-left">Shop no.1, Noori Baug, Marol Airport road Metro station, opposite Leela Hotel, Andheri East, Mumbai, Maharashtra 400059</a>
+                        </div>
+                    </div>
+                    <div class="column my-auto is-12">
+                        <div class="d-flex justify-content-start mpe" data-aos="fade-right">
+                            <i class="fas fa-phone has-text-warning fa-2x"></i>
+                            <p class="has-text-weight-semibold is-size-6 add ml-3 has-text-left"><a href="tel:7045720000" class="pno">7045720000</a> / <a href="tel:7045730000" class="pno">7045730000</a></p>
+                        </div>
+                    </div>
+                    <div class="column my-auto is-12">
+                        <div class="d-flex justify-content-start" data-aos="fade-right">
+                            <i class="fas fa-envelope has-text-warning fa-2x"></i>
+                            <a href="mailTo:contact@alnizamidarbar.com" class="has-text-weight-semibold is-size-6 add ml-3 has-text-left pt-1">contact@alnizamidarbar.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column ">
+                        <div class="has-text-centered">
+                            <p class="has-text-weight-semibold is-size-3 pb-4 os">Connect us on: </p>
+                        </div>
+                        <ul class="social d-flex justify-content-center" data-aos="fade-up">
+                            <li>
+                                <a class="ease-all" href="https://www.facebook.com/permalink.php?story_fbid=116882387149616&id=103579758479879&substory_index=1"><i class="fab fa-facebook-f fa-2x"></i><span class="hide-text">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a class="ease-all" href="https://twitter.com/alnizamidarbar"><i class="fab fa-twitter fa-2x"></i><span class="hide-text">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a class="ease-all" href="https://www.instagram.com/alnizamidarbarrestaurant/?hl=en"><i class="fab fa-instagram fa-2x"></i><span class="hide-text">Instagram</span></a>
+                            </li>
+                            <li>
+                                <a class="ease-all" href="https://www.youtube.com/watch?v=kUWBMdjO5B0"><i class="fab fa-youtube fa-2x"></i><span class="hide-text">youtube</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="column is-6-desktop has-background-warning-light" data-aos="zoom-out-left" data-aos-offset="300">
+            <div class="column is-6-desktop" data-aos="zoom-out-left" data-aos-offset="300">
 
                 <div class="is-size-3-desktop is-size-4-mobile os has-text-centered">
                     Have a question for us
                 </div>
 
                 <div class="has-text-centered mb-3">
-                    <p class="is-size-2-desktop is-size-3-mobile has-text-weight-normal has-text-grey">Message us today</p>
+                    <p class="is-size-2-desktop is-size-3-mobile has-text-weight-normal" style="color: #da902f;">Message us today</p>
                 </div><span class="divider"></span>
 
                 <?php
@@ -102,62 +148,14 @@
         </div>
     </section>
 
-    <section class="map has-text-centered mt-6">
+    <section class="map has-text-centered my-6">
         <p class="is-size-1-desktop is-size-3-mobile mb-3 why c" data-aos="fade-down" data-aos-offset="100">Our location</p>
-        <div class="mapouter">
+        <div class="mapouter ">
             <div class="gmap_canvas"><iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=al%20nizami%20darbar%20mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
     </section>
 
-    <section class="mt-6 py-6 px-6 has-background-warning-light">
-        <div class="other-details">
-            <div class="has-text-centered mt-6 ">
-                <p class="has-text-weight-semibold is-size-5 has-text-grey pb-4 c">Contact details: </p>
-            </div>
-            <div class="columns is-mobile is-multiline">
-                <div class="column is-12-mobile">
-                    <div class="d-flex justify-content-center mpe" data-aos="fade-down-right">
-                        <i class="fas fa-map has-text-warning fa-2x my-auto"></i>
-                        <a href="https://www.google.com/maps/place/Al+Nizami+Darbar/@19.1098817,72.8755438,15z/data=!4m2!3m1!1s0x0:0xc1192273cb239426?sa=X&ved=2ahUKEwicgKfD3-nvAhVIzTgGHZbKC88Q_BIwF3oECCAQBQ" class="has-text-weight-semibold is-size-6 add ml-3 has-text-left">Shop no.1, Noori Baug, Marol Airport road Metro station, opposite Leela Hotel, Andheri East, Mumbai, Maharashtra 400059</a>
-                    </div>
-                </div>
-                <div class="column my-auto is-12-mobile">
-                    <div class="d-flex justify-content-center mpe" data-aos="fade-down">
-                        <i class="fas fa-phone has-text-warning fa-2x"></i>
-                        <p class="has-text-weight-semibold is-size-6 add ml-3 has-text-left"><a href="tel:7045720000" class="pno">7045720000</a> / <a href="tel:7045730000" class="pno">7045730000</a></p>
-                    </div>
-                </div>
-                <div class="column my-auto is-12-mobile">
-                    <div class="d-flex justify-content-center" data-aos="fade-down-left">
-                        <i class="fas fa-envelope has-text-warning fa-2x"></i>
-                        <a href="mailTo:contact@alnizamidarbar.com" class="has-text-weight-semibold is-size-6 add ml-3 has-text-left pt-1">contact@alnizamidarbar.com</a>
-                    </div>
-                </div>
-            </div>
-            <div class="columns mt-6 pb-0">
-                <div class="column mb-0 pb-0">
-                    <div class="has-text-centered">
-                        <p class="has-text-weight-semibold is-size-5 has-text-grey pb-4 c">Connect us on: </p>
-                    </div>
-                    <ul class="social d-flex justify-content-center" data-aos="fade-up">
-                        <li>
-                            <a class="ease-all" href="#!"><i class="fab fa-facebook-f fa-2x"></i><span class="hide-text">Facebook</span></a>
-                        </li>
-                        <li>
-                            <a class="ease-all" href="#!"><i class="fab fa-twitter fa-2x"></i><span class="hide-text">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a class="ease-all" href="#!"><i class="fab fa-instagram fa-2x"></i><span class="hide-text">Instagram</span></a>
-                        </li>
-                        <li>
-                            <a class="ease-all" href="#!"><i class="fab fa-youtube fa-2x"></i><span class="hide-text">youtube</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
     <?php include("../../src/footer/footer.php") ?>
 
     <!-- partical js -->

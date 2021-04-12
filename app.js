@@ -36,9 +36,9 @@ new Typed("#typed", {
     "A feast for your senses.",
     "Royal enviroment",
   ],
-  typeSpeed: 150,
+  typeSpeed: 10,
   delaySpeed: 90,
-  backSpeed: 130,
+  backSpeed: 10,
   loop: true,
   smartBackspace: true,
 });

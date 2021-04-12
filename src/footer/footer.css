@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ffb452;
+  background-color: #da902f;
 }
 
 .nizami-text {
@@ -75,9 +75,9 @@ ul {
 }
 
 /* Social Icons */
-.social-col{
+/* .social-col{
     background-color: #cf8700;
-}
+} */
 
 .social{
 	height: inherit;
@@ -123,5 +123,5 @@ ul {
 }
 
 .footer-copyright{
-    background-color: #a55d00;
+    background-color: #660000;
 }

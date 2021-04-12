@@ -11,18 +11,27 @@ body {
 }
 
 .image-section {
-    background-image: url("../../images/og-pattern.png");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../../images/og-bg.png");
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .img-sec-logo{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
   }
   
   .image-section_text {
     position: absolute;
-    top: 37%;
-    left: 50%;
+    top: 70%;
+    left: 50.5%;
     transform: translate(-50%, -50%);
+    color: #da902f;
   }
 
   .os {
@@ -33,13 +42,14 @@ body {
 
   .msg {
     position: absolute;
-    top: 49%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .msg p{
       font: 'Montserrat', sans-serif;
+      color: #da902f;
   }
 
   .contact-bg{
@@ -60,6 +70,7 @@ body {
   .map{
       width: 100vw;
       height: 400px;
+      padding-bottom: 2rem;
   }
 
   .c{
@@ -67,12 +78,32 @@ body {
       color: #da902f;
   }
 
-  @media screen and (max-width: 700px){
-      .contact-bg{
-          display: none;
-      }
+  @media screen and (max-width: 768px){
 
       .mpe{
           display: block;
+      }
+
+      .img-sec-logo{
+        width: 200px;
+        position: absolute;
+        top: 25%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      }
+
+      .image-section_text {
+        position: absolute;
+        top: 40%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        color: #da902f;
+      }
+
+      .msg {
+        position: absolute;
+        top: 50%;
+        left: 52%;
+        transform: translate(-50%, -50%);
       }
   }

@@ -11,38 +11,46 @@ body {
 }
 
 .image-section {
-  background-image: url("../../images/og-pattern.png");
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
+  background-image: url("../../images/og-bg.png");
+  /* height: 80vh;
+  width: 100vw; */
+  background-position: top;
+  /* background-size: cover; */
+}
+
+.img-sec-logo {
+  width: 250px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .image-section_text {
   position: absolute;
-  top: 37%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .os {
   font-family: "Dancing Script", cursive;
-  color: #fff;
+  color: #da902f;
   font-weight: 700;
 }
 
 .aui {
   position: absolute;
-  top: 53%;
-  /* left: 50%; */
+  top: 73%;
   transform: translateY(-50%);
 }
 
 .at {
   position: absolute;
-  top: 49%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #da902f;
 }
 
 .at p {
@@ -55,13 +63,8 @@ body {
 .about-img {
   box-shadow: 0 8px 15px rgba(179, 0, 202, 0.7);
   transition: all 0.5s ease;
-}
-
-.about-img:hover {
-  transform: scale(1.05);
-  box-shadow: -1px 27px 73px -8px rgba(179, 0, 202, 0.8);
-  -webkit-box-shadow: -1px 27px 73px -8px rgba(179, 0, 202, 0.8);
-  -moz-box-shadow: -1px 27px 73px -8px rgba(179, 0, 202, 0.8);
+  border: 12px ridge #da902f;
+  border-radius: 5px;
 }
 
 .why {
@@ -89,10 +92,8 @@ body {
 }
 
 .image-section_text p {
-  margin-top: 8rem;
   color: #da902f;
   font-weight: 600;
-  top: 50%;
 }
 
 .contenedor {
@@ -128,6 +129,8 @@ body {
   margin-bottom: 15px;
   box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
   cursor: pointer;
+  border: 12px ridge #da902f;
+  border-radius: 5px;
 }
 
 .img-galeria:hover {
@@ -215,7 +218,6 @@ body {
 .img-galeria:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 10px rgba(179, 0, 202, 0.7);
-
 }
 
 .imagen-light {
@@ -259,8 +261,7 @@ body {
   font-size: 25px;
 }
 
-
-.testimonials{
+.testimonials {
   position: relative;
 }
 
@@ -272,7 +273,44 @@ body {
   z-index: 0;
 }
 
-.youtube{
+.youtube {
   width: 750px;
   height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .img-sec-logo {
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .image-section_text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .at {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #da902f;
+  }
+
+  .aui {
+    width: 250px;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+  }
+
+  .youtube{
+    width: inherit;
+    height: inherit;
+  }
 }

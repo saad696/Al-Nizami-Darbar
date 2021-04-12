@@ -9,7 +9,7 @@
             </p>
         </div>
         <div class="column is-2-desktop is-6-mobile has-text-centered">
-            <ul class="has-text-weight-semibold is-size-6 has-text-grey-dark">
+            <ul class="has-text-weight-semibold is-size-6 has-text-white">
                 Quick Links
                 <li><a href="/Al-Nizami-Darbar" class="is-size-7 l">Home</a></li>
                 <li><a href="/Al-Nizami-Darbar/src/about-us/about-us.php" class="is-size-7 l">About us</a></li>
@@ -17,11 +17,11 @@
             </ul>
         </div>
         <div class="column is-2-desktop is-6-mobile has-text-centered">
-            <ul class="has-text-weight-semibold is-size-6 has-text-grey-dark">
+            <ul class="has-text-weight-semibold is-size-6 has-text-white">
                 Authentic Flavours
                 <li><a href="#!" class="is-size-7 l">Nizami</a></li>
-                <li><a href="#!" class="is-size-7 l">Mughalai</a></li>
-                <li><a href="#!" class="is-size-7 l">Indian</a></li>
+                <li><a href="/Al-Nizami-Darbar/src/menu/mughalai/mughalai.php" class="is-size-7 l">Mughalai</a></li>
+                <li><a href="/Al-Nizami-Darbar/src/menu/indian/indian-main-course.php" class="is-size-7 l">Indian</a></li>
                 <li><a href="#!" class="is-size-7 l">Chinese</a></li>
             </ul>
         </div>
@@ -43,38 +43,39 @@
         </div>
     </div>
     <div class="columns is-mobile is-multiline">
-        <div class="column is-6-desktop is-12-mobile has-text-centered">
-            <p class="has-text-weight-semibold is-size-4-desktop is-size-6-mobile has-text-grey-dark py-4">Wanna have a tour?</p>
-            <iframe width="350" height="200" src="https://www.youtube.com/embed/kUWBMdjO5B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="column is-4-desktop is-12-mobile has-text-centered">
+            <p class="has-text-weight-semibold is-size-4-desktop is-size-6-mobile has-text-white py-4">Wanna have a tour?</p>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/kUWBMdjO5B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 12px ridge #660000; border-radius: 5px;"></iframe>
         </div>
-        <div class="column is-6-desktop is-12-mobile has-text-centered">
-            <p class="has-text-weight-semibold is-size-4-desktop is-size-6-mobile has-text-grey-dark py-4">Here's our location.</p>
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=al%20nizami%20darbar%20mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="columns mb-0 pb-0">
-        <div class="column social-col  mb-0 pb-0">
+        <div class="column is-4-desktop is-12-mobile social-col my-auto">
             <div class="has-text-centered">
                 <p class="has-text-weight-semibold is-size-6 has-text-white pb-4">Connect us on: </p>
             </div>
             <ul class="social d-flex justify-content-center">
                 <li>
-                    <a class="ease-all" href="#!"><i class="fab fa-facebook-f fa-2x"></i><span class="hide-text">Facebook</span></a>
+                    <a class="ease-all" href="https://www.facebook.com/permalink.php?story_fbid=116882387149616&id=103579758479879&substory_index=1"><i class="fab fa-facebook-f fa-2x"></i><span class="hide-text">Facebook</span></a>
                 </li>
                 <li>
-                    <a class="ease-all" href="#!"><i class="fab fa-twitter fa-2x"></i><span class="hide-text">Twitter</span></a>
+                    <a class="ease-all" href="https://twitter.com/alnizamidarbar"><i class="fab fa-twitter fa-2x"></i><span class="hide-text">Twitter</span></a>
                 </li>
                 <li>
-                    <a class="ease-all" href="#!"><i class="fab fa-instagram fa-2x"></i><span class="hide-text">Instagram</span></a>
+                    <a class="ease-all" href="https://www.instagram.com/alnizamidarbarrestaurant/?hl=en"><i class="fab fa-instagram fa-2x"></i><span class="hide-text">Instagram</span></a>
                 </li>
                 <li>
-                    <a class="ease-all" href="#!"><i class="fab fa-youtube fa-2x"></i><span class="hide-text">youtube</span></a>
+                    <a class="ease-all" href="https://www.youtube.com/watch?v=kUWBMdjO5B0"><i class="fab fa-youtube fa-2x"></i><span class="hide-text">youtube</span></a>
                 </li>
             </ul>
         </div>
+        <div class="column is-4-desktop is-12-mobile has-text-centered">
+            <p class="has-text-weight-semibold is-size-4-desktop is-size-6-mobile has-text-white py-4">Here's our location.</p>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=al%20nizami%20darbar%20mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border: 12px ridge #660000; border-radius: 5px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns mb-0 pb-0">
+        
     </div>
 </footer>
 <div class="footer-copyright text-center py-3 has-text-grey-light">

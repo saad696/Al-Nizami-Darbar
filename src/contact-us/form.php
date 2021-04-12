@@ -25,13 +25,13 @@ if (isset($_POST['send'])) {
         $mail->Port = 587;
 
         $mail->setFrom("fearofgod696@gmail.com");
-        $mail->addAddress("fearofgod696@gmail.com");
+        $mail->addAddress("shksaad911@gmail.com");
         $mail->isHTML(true);
         $mail->Subject = "Message recived (contact page)";
         $mail->Body = "<h3>Name: $userName<br> Email: $email<br> Message: $msg</h3>";
         $mail->send();
         $alert = '<div class="alert-success has-text-centered py-3">
-    <span>Message sent</span>
+    <span>Message sent we will get back to you shortly.</span>
     </div>';
     } catch (Exception $e) {
         $alert = '<div class="alert-error has-text-centered py-3">
